@@ -15,4 +15,22 @@ User functionalities:
 
 If you want to see how it looks without your Java IDE open, use the HowItWorks .jpg files.
 
+To add test users, type "/add" at the end of sites URL.
+
+/add adds:
+
+Admin
+login: admin
+pass: admin
+
+and other users
+login: MaciejRosiak
+pass: maciej
+
+login: KatarzynaPlawny 
+pass: katarzyna
+
+login: MarcinPlawny
+pass: marcin
+
 Thank you for checking up my profile!
