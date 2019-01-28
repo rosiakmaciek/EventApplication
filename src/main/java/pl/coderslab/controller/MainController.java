@@ -117,8 +117,8 @@ public class MainController {
 
         User user1 = new User();
         user1.setFirstName("Marcin");
-        user1.setLastName("Pławny");
-        user1.setLogin("MarcinPławny");
+        user1.setLastName("Plawny");
+        user1.setLogin("MarcinPlawny");
         user1.setEmail("marcin@testadminadmin.com");
         user1.setPassword(BCrypt.hashpw("marcin", BCrypt.gensalt()));
         user1.setAdmin(false);
@@ -127,8 +127,8 @@ public class MainController {
 
         User user2 = new User();
         user2.setFirstName("Katarzyna");
-        user2.setLastName("Pławny");
-        user2.setLogin("KatarzynaPławny");
+        user2.setLastName("Plawny");
+        user2.setLogin("KatarzynaPlawny");
         user2.setEmail("kasia@testadminadmin.com");
         user2.setPassword(BCrypt.hashpw("katarzyna", BCrypt.gensalt()));
         user2.setAdmin(false);
@@ -136,11 +136,11 @@ public class MainController {
         userRepository.save(user2);
 
         User user3 = new User();
-        user3.setFirstName("Mirosław");
+        user3.setFirstName("Maciej");
         user3.setLastName("Baka");
-        user3.setLogin("MirosławBaka");
-        user3.setEmail("miras@testadminadmin.com");
-        user3.setPassword(BCrypt.hashpw("miroslaw", BCrypt.gensalt()));
+        user3.setLogin("MaciejBaka");
+        user3.setEmail("maciej@testadminadmin.com");
+        user3.setPassword(BCrypt.hashpw("maciej", BCrypt.gensalt()));
         user3.setAdmin(false);
 
         userRepository.save(user3);
