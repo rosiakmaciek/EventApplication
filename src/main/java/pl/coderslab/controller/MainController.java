@@ -137,8 +137,8 @@ public class MainController {
 
         User user3 = new User();
         user3.setFirstName("Maciej");
-        user3.setLastName("Baka");
-        user3.setLogin("MaciejBaka");
+        user3.setLastName("Rosiak");
+        user3.setLogin("MaciejRosiak");
         user3.setEmail("maciej@testadminadmin.com");
         user3.setPassword(BCrypt.hashpw("maciej", BCrypt.gensalt()));
         user3.setAdmin(false);
