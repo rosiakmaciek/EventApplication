@@ -13,4 +13,6 @@ User functionalities:
 - Choosing rooms
 - Sending and recieving 'roomate invitations' to other users
 
+If you want to see how it looks without your Java IDE open, use the HowItWorks .jpg files.
+
 Thank you for checking up my profile!
